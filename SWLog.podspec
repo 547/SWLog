@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SWLog'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SWLog.'
+  s.summary          = '项目开发中常用的print封装.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+过去项目开发中常用的print封装
                        DESC
 
   s.homepage         = 'https://github.com/547/SWLog'
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SWLog/Classes/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'SWLog' => ['SWLog/Assets/*.png']

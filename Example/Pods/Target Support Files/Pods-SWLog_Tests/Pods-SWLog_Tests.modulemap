@@ -1,0 +1,6 @@
+framework module Pods_SWLog_Tests {
+  umbrella header "Pods-SWLog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
